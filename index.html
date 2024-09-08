@@ -1,11 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio - Julen Salinas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "logo.png" type = "image/x-icon"> 
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <header>
+        <div class="titulo">
+            <h1>Julen Salinas</h1>
+        </div>
+    </header>
+
+    <section class="contenido">
+        <div class="informacion">
+            <h2>Descripción</h2>
+            <br>
+            <p>Este es mi portafolio, en el cual muestro mis proyectos y trabajos destacados en desarrollo web. Mi objetivo es compartir mis habilidades, conocimientos y también aprender cada día más en este ámbito.</p>
+        </div>
+        <br>
+        <div class="acciones">
+            <!-- Con esto podemos navegar a ese id automáticamente a través de la página trás darle clic a los botones -->
+            <a href="#proyectos" class="boton-accion">Ver Proyectos</a>
+            <a href="#contacto" class="boton-accion">Contactar</a>
+        </div>
+    </section>
+
+    
+    <section class="contenido-extra">
+        <h2>Sobre mi</h2>
+        <br>
+        <p>Hola me llamo Julen Salinas, actualmente estoy estudiando un Grado Superior de Desarrollo de Aplicaciones Web en el centro de Nazaret en San Sebastián.</p>
+        <p>Desde siempre me ha gustado investigar y trabajar con nuevas tecnologías y más en este campo ya que son de gran ayuda.</p>
+        <p>En este portafolio os enseño todos los proyectos que he realizado en grupo; La duración de los mismos alrededor de 3 semanas cada uno.</p>     
+        <p>La gran mayoría de compentencias y habilidades las he adquirido en este centro que estoy reciviendo clase, siendo Ruby el único lenguaje de programación que he estado practicando por mi cuenta.</p>   
+    </section>
+
+   
+    <section id="proyectos" class="proyectos">
+        <h2>Mis Proyectos</h2>
+        <br>
+        <div class="grid-proyectos">
+            <div class="proyecto">
+                <h3>Motor Show</h3>
+                <a href="https://github.com/JonZorz/Grupo-C-Reto-1-Evaluaci-n/tree/main" target="_blank">Ver en GitHub</a>
+            </div>
+            <div class="proyecto">
+                <h3>MovieServe</h3>
+                <a href="https://github.com/JulenSalinas/MovieServe" target="_blank">Ver en GitHub</a>
+                <a href="https://movieserve.pages.dev/" target="_blank">Accede a la Web</a>
+            </div>
+            <div class="proyecto">
+                <h3>Oliva Bet</h3>
+                <a href="https://github.com/usuario/proyecto3" target="_blank">Ver en GitHub</a>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="competencias-habilidades">
+        <h2>Competencias y Habilidades</h2>
+        <div class="columnas">
+           
+            <div class="competencias">
+                <h3>Competencias</h3>
+                <div class="skill">
+                    <p>Desarrollo Web</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Edición de Imagenes</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 55%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Gestión de Proyectos</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Trabajo en Equipo</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="habilidades">
+                <h3>Habilidades</h3>
+                <div class="skill">
+                    <p>HTML/CSS</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 55%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Java</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Ruby</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Lenguaje SQL</p>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <div class="acciones"> 
+         <a href="CV-JulenSalinas.pdf" download class="boton-accion">Descargar CV</a> <br><br><br>
+        </div>
+        <p> Correo Electónico: julensalinas@gmail.com</p>
+        <div class="enlaceGitHub">
+            <p> Todos mi proyectos en:<u><a href="https://github.com/JulenSalinas" id="enlaceGitHub" target="_blank">Mi perfil de GitHub</a></u></i></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 - Prueba URL GitHub, Julen Salinas</p>
+    </footer>
 </body>
 </html>

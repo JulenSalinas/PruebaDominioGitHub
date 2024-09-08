@@ -1,0 +1,16 @@
+Propiedad para poder ajustar la anchura y la altura que se aplican a todas las partes del contenido (ya que he hecho mucho uso de grid, por el contrario solo se ajustaría al contenido de ese elemento únicamente) : 
+
+https://www.w3schools.com/cssref/css3_pr_box-sizing.php
+
+Barra de porcentaje: 
+
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_progressbar_round
+
+Desplazamiento suave a través de la página al darle clic a un botón/enlace: 
+
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_scroll_behavior
+
+Espacio entre filas y columnas de una maera sencilla: 
+
+https://www.w3schools.com/cssref/css3_pr_gap.php
+
